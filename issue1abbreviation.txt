@@ -1,0 +1,20 @@
+Product: Aqua Data Studio
+Version: 18.0.0-alpha-19
+Build #: 51790
+Build Date: 2016-Nov-08 06:57:54 PM
+
+Operating Environment: Windows 7 (6.1, amd64) / Cp1252 / en / US / Oracle Corporation 1.8.0_101-b13
+Memory: Max=704,643,072;  Total=428,343,296;  Free=194,962,680;  CPUs=8
+
+Steps to reproduce:
+1.Launch ADS.
+2.Go to File->Options->SQL Editor->Abbreviations.
+3.Create an abbreviation and select it.
+4.Now click in Expanded Text pane or Description pane.
+5.Write some text.
+6.Select some text(not the complete text).
+7.Right click on selected text and click on DELETE.
+Actual Result: Entire text is deleted.
+Expected Result: Only Selected text must be deleted. 
+
+Observation:Broken Build alpha-17.Works as expected in alpha 15.
