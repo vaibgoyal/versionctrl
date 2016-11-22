@@ -16,3 +16,7 @@ Steps to reproduce:
 Actual Result: Line is shifted but the bookmark disappears.
 
 Expected Result: Bookmark should appear on shifting the line.
+
+
+
+merge to master
